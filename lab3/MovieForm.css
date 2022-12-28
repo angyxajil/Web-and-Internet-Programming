@@ -1,0 +1,51 @@
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+#outer {
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    width: 350px;
+    padding-left: 10px;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: left;
+}
+
+#titles {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+    width: 130px;
+    height: 150px;
+    font-weight: bold;
+}
+
+#fill {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-evenly;
+    width: 200px;
+    height: 150px;
+}
+
+input, select{
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    background-color: white;
+}
+
+button {
+    background-color: lightgray;
+    width: 60px;
+    border: none;
+}

@@ -1,0 +1,23 @@
+table,tr, td {
+    border-collapse: collapse;
+    border-bottom-style: double;
+    border-bottom-color: black;
+    border-width: 3pt;
+}
+
+#tHeading {
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-width: 2pt;
+}
+
+.stats{
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-width: thin;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
